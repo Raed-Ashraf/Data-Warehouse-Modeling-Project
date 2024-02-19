@@ -16,4 +16,14 @@ The repository is organized as follows:
 - **Python Scripts**: Includes Python scripts for populating the data into the PostgreSQL database.
 - **Jupyter_Notebooks**: Contains Jupyter Notebook files for data analysis and visualization using the Matplotlib library.
 
-
+## Data Source
+The data utilized in this project pertains to waste collection and recycling activities conducted by the company across major cities in Brazil. The dataset includes the following attributes:  
+- Trip Number
+- Date
+- Station
+- City
+- Truck Number
+- Truck Type
+- Waste collected in Tons
+you can see sample of this data below.
+![Alt Text](url)
