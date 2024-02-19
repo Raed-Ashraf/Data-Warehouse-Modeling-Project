@@ -46,3 +46,10 @@ The following tables constitute the star schema used in this project:
 you can see the data warehouse schema below.
 
 ![Alt Text](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Images/DWH_Star_Schema.png)   
+
+## Populating the Data
+The data population process involves ETL (extracting, transforming, and loading) data from the company's source into the PostgreSQL database. In this project, the process will only handle loading the prepared data from CSV files into our data warehouse tables using Python scripts.  
+You can find the Python scripts used for data population in the folder [Python Scripts](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Python%20Scripts).  
+We have a Python script file for each table, which reads the rows of each CSV file, from the [Data](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Data) folder, creates a connection to the PostgreSQL database, and then executes insert queries for each row in the previously defined database table.  
+
+While populating the fact table data, consisting of approximately 106,000 rows, the process took an excessive amount of time, potentially exceeding 5 hours. Consequently, I attempted an alternative approach, which involved creating a single query string encompassing all rows and then executing this through our database connection. By employing this method, I executed only one query with a large dataset as opposed to executing 106,000 individual queries, resulting in a significantly reduced processing time of less than 10 minutes. That is why we have 2 python script files for populating the data of Fact table.
