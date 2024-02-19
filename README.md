@@ -5,20 +5,15 @@ This repository contains a data warehouse modeling project focused on the waste 
 ## Project Structure
 The repository is organized as follows:  
 .  
-├── Jupyter_Notebooks  
-│ └── Trip_analysis.ipynb  
-├── Python_Scripts  
-│ └── populate_dim_date_table.py  
-│ └── populate_dim_station_table.py  
-│ └── populate_dim_truck_table.py  
-│ └── populate_fact_trip_table - one_query.py  
-│ └── populate_fact_trip_table.py  
-├── SQL_Scripts  
-│ └── creae_materialized_view.sql  
-│ └── create_star_schema.sql  
-├── Data  
-│ └── DimDate.csv    
-│ └── DimStation.csv    
-│ └── DimTruck.csv   
-│ └── FactTrips.csv     
+├── Data    
+├── SQL Scripts  
+├── Python Scripts  
+├── Jupyter_Notebooks   
 └── README.md  
+
+- **Data**: Contains the company data in a from of csv files.
+- **SQL Scripts**: Contains SQL scripts for creating the data warehouse, implementing the star schema, and creating the materialized view.
+- **Python Scripts**: Includes Python scripts for populating the data into the PostgreSQL database.
+- **Jupyter_Notebooks**: Contains Jupyter Notebook files for data analysis and visualization using the Matplotlib library.
+
+
