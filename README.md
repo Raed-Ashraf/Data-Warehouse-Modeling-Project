@@ -53,3 +53,14 @@ You can find the Python scripts used for data population in the folder [Python S
 We have a Python script file for each table, which reads the rows of each CSV file, from the [Data](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Data) folder, creates a connection to the PostgreSQL database, and then executes insert queries for each row in the previously defined database table.  
 
 While populating the fact table data, consisting of approximately 106,000 rows, the process took an excessive amount of time, potentially exceeding 5 hours. Consequently, I attempted an alternative approach, which involved creating a single query string encompassing all rows and then executing this through our database connection. By employing this method, I executed only one query with a large dataset as opposed to executing 106,000 individual queries, resulting in a significantly reduced processing time of less than 10 minutes. That is why we have 2 python script files for populating the data of Fact table.
+
+## Analysis and Reporting
+**Prepare Materialized View**:  
+First, we need to create a materialized view that contains all the data required from our schema for analysis and reporting purposes. We can do this by executing a SQL script where we execute the appropriate join statements.  
+You can find the SQL script to create the materialized view in the folder [SQL Scripts](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/SQL%20Scripts).  
+
+And below, you can see the final look of the materialized view:
+
+![Alt Text](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Images/Materialzed%20view.png)  
+
+
