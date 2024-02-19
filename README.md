@@ -63,4 +63,20 @@ And below, you can see the final look of the materialized view:
 
 ![Alt Text](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Images/Materialzed%20view.png)  
 
+**Perform Analysis**:  
+The data warehouse enables various analysis and reporting capabilities for the company. By designing the data warehouse with a star schema and populating it with the relevant data, the project facilitates efficient retrieval and aggregation of data for analysis.
+
+To facilitate analysis and reporting, this project includes a Jupyter Notebook [Trip analysis](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Jupyter_Notebooks/Trip_analysis.ipynb) that demonstrates how to interact with the data warehouse. The notebook showcases the use of Python scripts, SQL queries, and the Matplotlib library for data visualization.  
+
+Below are some of the company's business analyzes and questions addressed through this project:
+- Total waste collected per month.  
+-	Month at which maximum amount of waste has been collected.  
+-	Month at which minimum amount of waste has been collected.  
+-	Drawing to visualize the total wase collected for each month.  
+-	Total amount of waste collected for each truck type.  
+-	Which truck type can collect the maximum waste collected.  
+-	Total waste collected per city.  
+-	Which city has the largest amount of waste collected.  
+-	Drawing to visualize the total wase collected at each city.  
+-	Drawing to visualize he total amount of waste collected per city for each quarter.  
 
