@@ -80,3 +80,5 @@ Below are some of the company's business analyzes and questions addressed throug
 -	Drawing to visualize the total wase collected at each city.  
 -	Drawing to visualize he total amount of waste collected per city for each quarter.  
 
+## Acknowledgments
+Special thanks to IBM for providing valuable resources and knowledge on data warehouse main concepts. This project is based on data obtained from IBM (Getting started with data warehousing and bi analytics) course, and I express my gratitude for the opportunity to learn and utilize their data for this project.
