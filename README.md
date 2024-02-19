@@ -25,5 +25,7 @@ The data utilized in this project pertains to waste collection and recycling act
 - Truck Number
 - Truck Type
 - Waste collected in Tons
+
 you can see sample of this data below.
-![Alt Text](url)
+
+![Alt Text](https://github.com/Raed-Ashraf/Data-Warehouse-Modeling-Project/blob/main/Images/Company_Data.png)
